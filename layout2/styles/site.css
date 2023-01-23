@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  font-size: 120%;
+  color: white;
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+
+header.text-pad * {
+  padding: 10px;
+  margin: 0px;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  display: flex;
+  background-color: brown;
+  flex: auto;
+  font-size: small;
+}
+
+article {
+  display: flex;
+  background-color: yellow;
+  height: 400px;
+  font-size: small;
+  flex: auto;
+}
+
+aside {
+  display: flex;
+  background-color: blue;
+  font-size: small;
+}
+
+h1 {
+  display: flex;
+  background-color: orange;
+  font-size: x-large;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
